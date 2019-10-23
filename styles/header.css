@@ -1,0 +1,60 @@
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 50px;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); }
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .menu__element {
+    display: block;
+    margin-left: 20px;
+    padding: 22.5px 0;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500; }
+    .menu__element.is-active {
+      color: #00acdc;
+      margin-left: 0;
+      position: relative; }
+      .menu__element.is-active::after {
+        content: "";
+        height: 4px;
+        width: 100%;
+        border-radius: 2px;
+        background-color: #00acdc;
+        position: absolute;
+        top: 56px;
+        left: 0; }
+    .menu__element:hover {
+      color: #00acdc; }
+
+/*# sourceMappingURL=header.css.map */

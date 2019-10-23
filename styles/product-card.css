@@ -1,0 +1,92 @@
+p,
+h2 {
+  margin: 0; }
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 15px 14px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #f3f3f3;
+  width: 200px;
+  border-radius: 5px; }
+  .card__element {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .card__element--image {
+      width: 160px;
+      height: 134px;
+      position: relative;
+      top: 15px;
+      margin-bottom: 60px;
+      -ms-flex-item-align: center;
+          align-self: center; }
+    .card__element--title {
+      margin-bottom: 5px;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 15px; }
+    .card__element--reviews {
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+    .card__element--price {
+      margin-bottom: 20px;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: baseline;
+          -ms-flex-align: baseline;
+              align-items: baseline; }
+  .card__reviews-image {
+    display: inline-block;
+    width: 15px;
+    height: 47px;
+    margin-right: 1px;
+    background: url(../images/star-active.svg) no-repeat center; }
+    .card__reviews-image--inactive {
+      background: url(../images/star.svg) no-repeat center; }
+  .card__sum {
+    font-size: 16px;
+    font-weight: bold; }
+  .card__link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 170px;
+    height: 40px;
+    border: 1px solid #00acdc;
+    background-color: #00acdc;
+    border-radius: 5px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px; }
+    .card__link:hover {
+      background-color: #fff;
+      color: #00acdc;
+      border: 1px solid #00acdc;
+      border-radius: 5px; }
+
+/*# sourceMappingURL=product-card.css.map */
